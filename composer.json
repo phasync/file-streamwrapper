@@ -1,0 +1,22 @@
+{
+    "name": "phasync/file-streamwrapper",
+    "description": "Makes file IO asynchronous in phasync coroutines.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "phasync\\FileStreamWrapper\\": "src/"
+        },
+        "files": ["functions.php"]
+    },
+    "authors": [
+        {
+            "name": "Frode Børli",
+            "email": "frode@ennerd.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phasync/phasync": "dev-main"
+    }
+}
